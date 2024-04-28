@@ -15,17 +15,15 @@
 - We can count the length of linked list and divide it to get middle value 
 - Using while loop we can delete the middle node.
 
-``
-temp = head, node_to_be_deleted = null, count = 1; 
-while ( count != middle_index ) {
-    node_to_be_deleted = temp;
-    temp = temp.next;
-}
-
-//Once you find the node to be deleted using above example mentioned in how to delete dereference the node.
-
-temp.next = node_to_be_deleted.next;
-``
+-- temp = head, node_to_be_deleted = null, count = 1; 
+-- while ( count++ != middle_index ) {
+--     node_to_be_deleted = temp;
+--     temp = temp.next;
+-- }
+-- 
+-- //Once you find the node to be deleted using above example mentioned in how to delete dereference the node.
+-- 
+-- temp.next = node_to_be_deleted.next;
 
 ## Intuition - 2
 - Two pointer approach O(n / 2)
